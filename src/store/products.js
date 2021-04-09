@@ -5,7 +5,7 @@ export default {
     cataLog: [
       {
         name: "Large Frog",
-        img: "/photos/frog.png",
+        img: `${process.env.BASE_URL}photos/frog.png`,
         price: 55,
         cata: "animals",
         recc: false,
@@ -13,7 +13,7 @@ export default {
       },
       {
         name: "small frog",
-        img: "/photos/frog-braces.png",
+        img: `${process.env.BASE_URL}photos/frog-braces.png`,
         price: 12,
         cata: "animals",
         recc: false,
@@ -21,7 +21,7 @@ export default {
       },
       {
         name: "Cat",
-        img: "/photos/cat.png",
+        img: `${process.env.BASE_URL}photos/cat.png`,
         price: 20,
         cata: "animals",
         recc: false,
@@ -29,7 +29,7 @@ export default {
       },
       {
         name: "Yellow Car",
-        img: "/photos/yellow-car.png",
+        img: `${process.env.BASE_URL}photos/yellow-car.png`,
         price: 250,
         cata: "cars",
         recc: true,
@@ -37,7 +37,7 @@ export default {
       },
       {
         name: "Pink sock",
-        img: "/photos/pinksock.png",
+        img: `${process.env.BASE_URL}photos/pinksock.png`,
         price: 5,
         cata: "socks",
         recc: false,
@@ -45,7 +45,7 @@ export default {
       },
       {
         name: "Green Sock",
-        img: "/photos/greensock.png",
+        img: `${process.env.BASE_URL}photos/greensock.png`,
         price: 2,
         cata: "socks",
         recc: false,
@@ -53,7 +53,7 @@ export default {
       },
       {
         name: "Blue Sock",
-        img: "/photos/bluesock.png",
+        img: `${process.env.BASE_URL}photos/bluesock.png`,
         price: 10,
         cata: "socks",
         recc: true,
@@ -61,7 +61,7 @@ export default {
       },
       {
         name: "Developer",
-        img: "/photos/oliver.png",
+        img: `${process.env.BASE_URL}photos/oliver.png`,
         price: 2,
         cata: "animals",
         recc: true,
